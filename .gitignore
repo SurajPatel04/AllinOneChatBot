@@ -1,0 +1,58 @@
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Byte-compiled / cache
+*.sqlite3
+*.db
+
+# Migrations (optional, if using Alembic)
+alembic/versions/*.pyc
+
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+
+
+# End of https://mrkandreev.name/snippets/gitignore-generator/#react
